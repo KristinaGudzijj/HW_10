@@ -1,0 +1,31 @@
+    1  git config --global user.name
+    2  git config --global user.email kristinagudzijj@gmail.com
+    3  git clone https://github.com/KristinaGudzijj/HW_10.git
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  vim .gitignore
+    7  git status
+    8  git add
+    9  git add .
+   10  git status
+   11  git commit -m "Додано файл та внесені зміни в gitignore"
+   12  git status
+   13  touch main_test.txt
+   14  git add
+   15  git add .
+   16  git commit -m "Add main_test.txt"
+   17  git checkout -b develop
+   18  git checkout -b "develop"
+   19  git status
+   20  touch develop_test.txt
+   21  git add .
+   22  git status
+   23  git commit -m "Add new branch develop and develope_test.txt"
+   24  vim develop_text.txt
+   25  git status
+   26  git add .
+   27  git commit -m "Add changes just a small change"
+   28  git checkout main
+   29  git merge develop
+   30  git log
+   31  history>command_list.csv
